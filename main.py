@@ -62,6 +62,27 @@ def safe_get_text(element):
         return text if is_valid_content(text) else None
     except:
         return None
+
+def find_opinion_section(driver, wait):
+    """Find Opinion section with fallback selectors"""
+    opinion_selectors = [
+        "//nav//a[contains(text(), 'Opinión')]",           # Primary
+        "//nav//a[contains(@href, 'opinion')]",            # Fallback 1
+        "//a[contains(text(), 'Opinion')]",                # Fallback 2
+        "//nav//a[contains(text(), 'Columnas')]",          # Fallback 3
+        "//nav//a[contains(@class, 'opinion')]"            # Fallback 4
+    ]
+    
+    for selector in opinion_selectors:
+        try:
+            opinion_link = wait.until(EC.presence_of_element_located((By.XPATH, selector)))
+            print(f"Found Opinion section using selector: {selector}")
+            return opinion_link
+        except Exception as e:
+            logging.error(f"exception - {e}")
+    
+    raise Exception("Could not find Opinion section with any known selector")
+
         
 
 def run_test(driver, url, caps, no_of_article):
@@ -86,11 +107,11 @@ def run_test(driver, url, caps, no_of_article):
         wait.until(EC.element_to_be_clickable((By.ID, "btn_open_hamburger"))).click()
         time.sleep(2)  # explicit time.sleep to allow menu to fully slide in
 
-    opinion_link = wait.until(EC.presence_of_element_located(
-        (By.XPATH, "//nav//a[contains(text(), 'Opinión')]")
-    ))
-    driver.execute_script("arguments[0].click();", opinion_link)
-
+    try:
+        opinion_link = find_opinion_section(driver, wait)
+        driver.execute_script("arguments[0].click();", opinion_link)
+    except Exception as e:
+        logging.error(f"exception - {e}")
 
     h2_texts = []
     translated_h2_texts = []
