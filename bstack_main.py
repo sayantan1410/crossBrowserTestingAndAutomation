@@ -6,17 +6,17 @@ from selenium.webdriver.common.by import By
 from main import run_test
 import logging
 
+import json
 
-BROWSERSTACK_USERNAME = 'sayantansadhu_EhpDRl'
-BROWSERSTACK_ACCESS_KEY = 'ByJsndPijA2x75qod8DF'
-NO_OF_ARTICLES = 5
-BROWSER_COMBINATIONS = [
-    {'id':'1','os': 'Windows', 'os_version': '10', 'browser': 'Chrome', 'browser_version': 'latest'},
-    {'id':'2','os': 'OS X', 'os_version': 'Monterey', 'browser': 'Safari', 'browser_version': 'latest'},
-    {'id':'3','device': 'Samsung Galaxy S22', 'real_mobile': True, 'os_version': '12.0',},
-    {'id':'4','device': 'iPhone 13', 'real_mobile': True, 'os_version': '15'},
-    {'id':'5','os': 'Windows', 'os_version': '11', 'browser': 'Firefox', 'browser_version': 'latest'}
-]
+# Loading config
+with open('config.json', 'r') as config_file:
+    config = json.load(config_file)
+
+# Assigning variables
+BROWSERSTACK_USERNAME = config["BROWSERSTACK_USERNAME"]
+BROWSERSTACK_ACCESS_KEY = config["BROWSERSTACK_ACCESS_KEY"]
+NO_OF_ARTICLES = config["NO_OF_ARTICLES"]
+BROWSER_COMBINATIONS = config["BROWSER_COMBINATIONS"]
 
 
 logging.basicConfig(

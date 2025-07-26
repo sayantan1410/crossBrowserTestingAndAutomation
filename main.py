@@ -114,8 +114,8 @@ def run_test(driver, url, caps, no_of_article):
                             freq_map.update(words)
                             h2_texts.append(h2_text)
                             translated_h2_texts.append(translated_h2_text)
-                            print(f"{caps['id']} - [{index+1}] Heading: {h2_text}")
-                            print(f"{caps['id']} - Translated text : {translated_h2_text}")
+                            print(f"capability id {caps['id']} - [{index+1}] Heading: {h2_text}")
+                            print(f"capability id {caps['id']} - Translated text : {translated_h2_text}")
                 except Exception as e:
                     logging.error(f"exception = {e}" )
                 
@@ -126,7 +126,7 @@ def run_test(driver, url, caps, no_of_article):
                     paragraph = safe_get_text(p_element)
                     if paragraph:
                         paragraph_texts.append(paragraph)
-                        print(f"{caps['id']} - [{index+1}] Paragraph: {paragraph}")
+                        print(f"capability id {caps['id']} - [{index+1}] Paragraph: {paragraph}")
                 except Exception as e:
                     logging.error(f"exception = {e}" )
 
