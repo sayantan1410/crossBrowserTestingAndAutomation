@@ -1,0 +1,96 @@
+Starting tests with browser combinations: [{'id': '1', 'os': 'Windows', 'os_version': '10', 'browser': 'Chrome', 'browser_version': 'latest'}, {'id': '2', 'os': 'OS X', 'os_version': 'Monterey', 'browser': 'Safari', 'browser_version': 'latest'}, {'id': '3', 'device': 'Samsung Galaxy S22', 'real_mobile': True, 'os_version': '12.0'}, {'id': '4', 'device': 'iPhone 13', 'real_mobile': True, 'os_version': '15'}, {'id': '5', 'os': 'Windows', 'os_version': '11', 'browser': 'Firefox', 'browser_version': 'latest'}]
+2 - [1] Heading: La hambruna en Gaza impulsa la movilización de las potencias europeas frente a Israel y Estados Unidos
+2 - Translated text : The famine in Gaza is prompting European powers to mobilize against Israel and the United States.
+2 - [1] Paragraph: Los devastadores recortes contra la NASA y otras instituciones suponen un grave daño para la investigación mundial
+2 - [2] Heading: La ultraderecha irrumpe en Japón
+2 - Translated text : The far right erupts in Japan
+2 - [2] Paragraph: El Gobierno conservador ya no tendrá mayoría en ninguna de las Cámaras mientras la oposición progresista se estanca
+2 - [3] Heading: Cerrado por vacaciones
+2 - Translated text : Closed for vacation
+2 - [3] Paragraph: El enunciado de ocho sílabas es la medida que la cabeza hispánica mejor recuerda, por eso funciona muy bien popularmente
+2 - [4] Heading: Sálvese quien pueda
+2 - Translated text : Every man for himself
+2 - [4] Paragraph: Mi vida entera ha consistido en el choque con la brutalidad y en la huida de ella: en presenciarla o sufrirla, en detectar sus síntomas, en rebelarme contra ella, casi siempre en vano
+Image saved: Images\capability_2\th2_article_4_1.jpg
+2 - [5] Heading: ‘Inventario de un viaje perfecto’
+2 - Translated text : ‘Inventory of a perfect trip’
+2 - [5] Paragraph: Este proyecto es un inventario visual de la vida a bordo y de la costa que busca revivir y expandir la memoria de ese trayecto: la atmósfera, la luz, el calor y la materia. Cada imagen parte de un instante y se extiende a través de su manipulación. Invita a ralentizar la mirada, a contemplar con calma lo que pudo pasar inadvertido. Un ejercicio estético que quiere transformar lo ordinario en eterno
+Image saved: Images\capability_2\th2_article_5_1.jpg
+----Repeated Words----
+Word : the - Repetation: 3
+Word : in - Repetation: 2
+Word : for - Repetation: 2
+4 - [1] Heading: La ciencia se rebela contra Trump
+4 - Translated text : Science rebels against Trump
+4 - [1] Paragraph: Los devastadores recortes contra la NASA y otras instituciones suponen un grave daño para la investigación mundial
+1 - [1] Heading: La ciencia se rebela contra Trump
+1 - Translated text : Science rebels against Trump
+1 - [1] Paragraph: Los devastadores recortes contra la NASA y otras instituciones suponen un grave daño para la investigación mundial
+4 - [2] Heading: La ultraderecha irrumpe en Japón
+4 - Translated text : The far right erupts in Japan
+4 - [2] Paragraph: El Gobierno conservador ya no tendrá mayoría en ninguna de las Cámaras mientras la oposición progresista se estanca
+5 - [1] Paragraph: Los devastadores recortes contra la NASA y otras instituciones suponen un grave daño para la investigación mundial
+1 - [2] Heading: La ultraderecha irrumpe en Japón
+1 - Translated text : The far right erupts in Japan
+1 - [2] Paragraph: El Gobierno conservador ya no tendrá mayoría en ninguna de las Cámaras mientras la oposición progresista se estanca
+4 - [3] Heading: Cerrado por vacaciones
+4 - Translated text : Closed for vacation
+4 - [3] Paragraph: El enunciado de ocho sílabas es la medida que la cabeza hispánica mejor recuerda, por eso funciona muy bien popularmente
+1 - [3] Heading: Cerrado por vacaciones
+1 - Translated text : Closed for vacation
+1 - [3] Paragraph: El enunciado de ocho sílabas es la medida que la cabeza hispánica mejor recuerda, por eso funciona muy bien popularmente
+5 - [2] Heading: La ultraderecha irrumpe en Japón
+5 - Translated text : The far right erupts in Japan
+3 - [1] Heading: La ciencia se rebela contra Trump
+3 - Translated text : Science rebels against Trump
+4 - [4] Heading: Sálvese quien pueda
+4 - Translated text : Every man for himself
+3 - [1] Paragraph: Los devastadores recortes contra la NASA y otras instituciones suponen un grave daño para la investigación mundial
+4 - [4] Paragraph: Mi vida entera ha consistido en el choque con la brutalidad y en la huida de ella: en presenciarla o sufrirla, en detectar sus síntomas, en rebelarme contra ella, casi siempre en vano
+1 - [4] Heading: Sálvese quien pueda
+1 - Translated text : Every man for himself
+5 - [2] Paragraph: El Gobierno conservador ya no tendrá mayoría en ninguna de las Cámaras mientras la oposición progresista se estanca
+1 - [4] Paragraph: Mi vida entera ha consistido en el choque con la brutalidad y en la huida de ella: en presenciarla o sufrirla, en detectar sus síntomas, en rebelarme contra ella, casi siempre en vano
+Image saved: Images\capability_4\th4_article_4_1.jpg
+Image saved: Images\capability_1\th1_article_4_1.jpg
+3 - [2] Heading: La ultraderecha irrumpe en Japón
+3 - Translated text : The far right erupts in Japan
+4 - [5] Heading: ‘Inventario de un viaje perfecto’
+4 - Translated text : ‘Inventory of a perfect trip’
+1 - [5] Heading: ‘Inventario de un viaje perfecto’
+1 - Translated text : ‘Inventory of a perfect trip’
+5 - [3] Heading: Cerrado por vacaciones
+5 - Translated text : Closed for vacation
+3 - [2] Paragraph: El Gobierno conservador ya no tendrá mayoría en ninguna de las Cámaras mientras la oposición progresista se estanca
+1 - [5] Paragraph: Este proyecto es un inventario visual de la vida a bordo y de la costa que busca revivir y expandir la memoria de ese trayecto: la atmósfera, la luz, el calor y la materia. Cada imagen parte de un instante y se extiende a través de su manipulación. Invita a ralentizar la mirada, a contemplar con calma lo que pudo pasar inadvertido. Un ejercicio estético que quiere transformar lo ordinario en eterno
+5 - [3] Paragraph: El enunciado de ocho sílabas es la medida que la cabeza hispánica mejor recuerda, por eso funciona muy bien popularmente
+4 - [5] Paragraph: Este proyecto es un inventario visual de la vida a bordo y de la costa que busca revivir y expandir la memoria de ese trayecto: la atmósfera, la luz, el calor y la materia. Cada imagen parte de un instante y se extiende a través de su manipulación. Invita a ralentizar la mirada, a contemplar con calma lo que pudo pasar inadvertido. Un ejercicio estético que quiere transformar lo ordinario en eterno
+Image saved: Images\capability_1\th1_article_5_1.jpg
+----Repeated Words----
+Word : for - Repetation: 2
+Image saved: Images\capability_4\th4_article_5_1.jpg
+----Repeated Words----
+Word : for - Repetation: 2
+5 - [4] Heading: Sálvese quien pueda
+5 - Translated text : Every man for himself
+3 - [3] Heading: Cerrado por vacaciones
+3 - Translated text : Closed for vacation
+5 - [4] Paragraph: Mi vida entera ha consistido en el choque con la brutalidad y en la huida de ella: en presenciarla o sufrirla, en detectar sus síntomas, en rebelarme contra ella, casi siempre en vano
+Image saved: Images\capability_5\th5_article_4_1.jpg
+3 - [3] Paragraph: El enunciado de ocho sílabas es la medida que la cabeza hispánica mejor recuerda, por eso funciona muy bien popularmente
+5 - [5] Heading: ‘Inventario de un viaje perfecto’
+5 - Translated text : ‘Inventory of a perfect trip’
+5 - [5] Paragraph: Este proyecto es un inventario visual de la vida a bordo y de la costa que busca revivir y expandir la memoria de ese trayecto: la atmósfera, la luz, el calor y la materia. Cada imagen parte de un instante y se extiende a través de su manipulación. Invita a ralentizar la mirada, a contemplar con calma lo que pudo pasar inadvertido. Un ejercicio estético que quiere transformar lo ordinario en eterno
+Image saved: Images\capability_5\th5_article_5_1.jpg
+----Repeated Words----
+Word : for - Repetation: 2
+3 - [4] Heading: Sálvese quien pueda
+3 - Translated text : Every man for himself
+3 - [4] Paragraph: Mi vida entera ha consistido en el choque con la brutalidad y en la huida de ella: en presenciarla o sufrirla, en detectar sus síntomas, en rebelarme contra ella, casi siempre en vano
+Image saved: Images\capability_3\th3_article_4_1.jpg
+3 - [5] Heading: ‘Inventario de un viaje perfecto’
+3 - Translated text : ‘Inventory of a perfect trip’
+3 - [5] Paragraph: Este proyecto es un inventario visual de la vida a bordo y de la costa que busca revivir y expandir la memoria de ese trayecto: la atmósfera, la luz, el calor y la materia. Cada imagen parte de un instante y se extiende a través de su manipulación. Invita a ralentizar la mirada, a contemplar con calma lo que pudo pasar inadvertido. Un ejercicio estético que quiere transformar lo ordinario en eterno
+Image saved: Images\capability_3\th3_article_5_1.jpg
+----Repeated Words----
+Word : for - Repetation: 2
