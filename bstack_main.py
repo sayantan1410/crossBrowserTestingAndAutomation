@@ -58,7 +58,7 @@ def run_test_bstack(capabilities, NO_OF_ARTICLES):
             options.set_capability(key, value)
         
         driver = webdriver.Remote(command_executor=url, options=options)
-        
+        print(driver.session_id)
         logging.info(f"Driver created with options for capabilities: {caps}")
         run_test(driver, web_url, caps, NO_OF_ARTICLES)
         logging.info(f"Test completed successfully for: {caps}")
@@ -69,6 +69,16 @@ def run_test_bstack(capabilities, NO_OF_ARTICLES):
     finally:
         if driver:
             try:
+                driver.quit()
+                executor_object = {
+                'action': 'setSessionStatus',
+                'arguments': {
+                    'status': "passed",
+                    'reason': "driver.quit() executed successfully"
+                    }
+                }
+                browserstack_executor = 'browserstack_executor: {}'.format(json.dumps(executor_object))
+                driver.execute_script(browserstack_executor)
                 driver.quit()
                 logging.info(f"Driver closed for: {caps}")
             except Exception as e:

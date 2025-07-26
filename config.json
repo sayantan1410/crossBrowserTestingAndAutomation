@@ -1,6 +1,6 @@
 {
-  "BROWSERSTACK_USERNAME": "sayantansadhu_EhpDRl",
-  "BROWSERSTACK_ACCESS_KEY": "ByJsndPijA2x75qod8DF",
+  "BROWSERSTACK_USERNAME": "sayantansadhu_Rm3SKw",
+  "BROWSERSTACK_ACCESS_KEY": "pB1EKc3efCh5qUN6dbFy",
   "NO_OF_ARTICLES": 5,
   "BROWSER_COMBINATIONS": [
     {"id": "1", "os": "Windows", "os_version": "10", "browser": "Chrome", "browser_version": "latest"},

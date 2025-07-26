@@ -88,8 +88,11 @@ def run_test(driver, url, caps, no_of_article):
     is_mobile = 'device' in caps
     driver.get(url)
     if(not is_mobile):
-        driver.maximize_window()
-    wait = WebDriverWait(driver, 10)
+        try:
+            driver.maximize_window()
+        except Exception as e:
+            logging.error(f"exception while maximizing window - {e}")
+    wait = WebDriverWait(driver, 30)
     cleanup_images_folder() # so that the folder doesn't grow in size indefinitely as we keep running the tests
     time.sleep(3) # explicit time.sleep for the cookie notification to come in.
     try:

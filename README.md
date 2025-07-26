@@ -1,84 +1,61 @@
-# 🌐 Multi-Browser Web Scraper
+### 🌐 Multi-Browser Web Scraper
 A sophisticated parallel web scraping system that extracts and analyzes content across multiple browser configurations simultaneously. This project demonstrates advanced concurrent programming, cross-browser compatibility testing, and automated content extraction with translation capabilities.
 
----
 
-## ✨ Features
+### ✨ Features
 
-- **Parallel Processing:** 5 concurrent threads running different browser configurations
-- **Multi-Browser Support:** Tests across different browsers and device types (Desktop, Mobile, Tablet)
-- **Content Extraction:** Automatically extracts headlines, paragraphs, and images
-- **Translation:** Built-in translation capabilities for international content
-- **Analysis:** Word frequency analysis and content comparison
-- **Organized Output:** Structured file organization with capability-specific folders
-- **CI/CD Ready:** GitHub Actions workflow integration
+🔄 Parallel Processing: 5 concurrent threads running different browser configurations
+🌍 Multi-Browser Support: Tests across different browsers and device types (Desktop, Mobile, Tablet)
+📝 Content Extraction: Automatically extracts headlines, paragraphs, and images
+🔤 Translation: Built-in translation capabilities for international content
+📊 Analysis: Word frequency analysis and content comparison
+📁 Organized Output: Structured file organization with capability-specific folders
+🚀 CI/CD Ready: GitHub Actions workflow integration
 
----
 
-## 🚀 Quick Start
+### 🚀 Quick Start
+Prerequisites
 
-### Prerequisites
-- Python 3.8 or higher
-- Git
-- Internet connection for web scraping
+Python 3.8 or higher
+Git
+Internet connection for web scraping
 
 ### Installation
 
 Clone the repository:
-
 ```bash
 git clone https://github.com/yourusername/multi-browser-scraper.git
 cd crossBrowserTestingAndAutomation
-```
-
-Create a virtual environment:
-
-```bash
-# On Windows
+Create a virtual environment
 python -m venv scraper_env
 
-# On macOS/Linux
+##### On macOS/Linux
 python3 -m venv scraper_env
-```
 
-Activate the virtual environment:
-
-```bash
-# On Windows
+Activate the virtual environment
+##### On Windows
 scraper_env\Scripts\activate
 
-# On macOS/Linux
+##### On macOS/Linux
 source scraper_env/bin/activate
-```
 
-Install dependencies:
-
-```bash
+Install dependencies
 pip install -r requirements.txt
-```
 
-Run the scraper:
-
-```bash
+Run the scraper
 python bstack_main.py
-```
 
----
 
-## 🎯 How It Works
+### 🎯 How It Works
 
-1. **Initialization:** The system spawns 5 parallel threads, each configured with different browser capabilities
-2. **Concurrent Scraping:** Each thread independently navigates to the target website and extracts content
-3. **Content Processing:** Headlines, paragraphs, and images are extracted and processed
-4. **Translation:** Non-English content is automatically translated
-5. **Analysis:** Word frequency and content analysis is performed
-6. **Output Generation:** Results are logged with capability identifiers and saved to organized folders
+Initialization: The system spawns 5 parallel threads, each configured with different browser capabilities
+Concurrent Scraping: Each thread independently navigates to the target website and extracts content
+Content Processing: Headlines, paragraphs, and images are extracted and processed
+Translation: Non-English content is automatically translated
+Analysis: Word frequency and content analysis is performed
+Output Generation: Results are logged with capability identifiers and saved to organized folders
 
----
-
-## 📊 Output Structure
-
-```
+### 📊 Output Structure
 Output/
 ├── Images/
 │   ├── capability_1/
@@ -88,56 +65,37 @@ Output/
 │   └── capability_5/
 └── logs/
     └── scraping_results.log
-```
 
----
-
-## 🔧 Configuration
-
-**Browser Capabilities**
-
+### 🔧 Configuration
+Browser Capabilities
 The scraper tests 5 different browser configurations:
 
-- Capability 1: Desktop Chrome (Windows)
-- Capability 2: Mobile Safari (iOS)
-- Capability 3: Desktop Firefox (macOS)
-- Capability 4: Mobile Chrome (Android)
-- Capability 5: Tablet Safari (iPad)
+Capability 1: Desktop Chrome (Windows)
+Capability 2: Mobile Safari (iOS)
+Capability 3: Desktop Firefox (macOS)
+Capability 4: Mobile Chrome (Android)
+Capability 5: Tablet Safari (iPad)
 
-**Customization:**
-To modify target websites or capabilities, edit the `config.json` file:
-
-```python
+### Customization
+To modify target websites or capabilities, edit the config.json file:
 CAPABILITIES = {
     1: {"browser": "chrome", "device": "desktop"},
     2: {"browser": "safari", "device": "mobile"},
     # Add more configurations...
 }
-```
-
----
-
-## 📈 Expected Output
-
+### 📈 Expected Output
 The scraper produces interleaved output showing parallel execution:
-
-```
 Capability 1 - [1] Heading: Sample Article Title
 Capability 3 - [1] Heading: Sample Article Title
 Capability 1 - [2] Heading: Another Article
 Capability 2 - [1] Heading: Sample Article Title
 ...
-```
 
 This demonstrates successful concurrent processing across multiple browser environments.
-
----
-
-## 🧪 Testing with GitHub Actions
-
+### 🧪 Testing with GitHub Actions
 This project includes CI/CD integration with GitHub Actions. The workflow automatically:
 
-- Sets up the Python environment
-- Installs dependencies
-- Runs the scraper
-- Stores results as artifacts
+Sets up the Python environment
+Installs dependencies
+Runs the scraper
+Stores results as artifacts
