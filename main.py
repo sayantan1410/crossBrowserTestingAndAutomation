@@ -76,7 +76,6 @@ def find_opinion_section(driver, wait):
     for selector in opinion_selectors:
         try:
             opinion_link = wait.until(EC.presence_of_element_located((By.XPATH, selector)))
-            print(f"Found Opinion section using selector: {selector}")
             return opinion_link
         except Exception as e:
             logging.error(f"exception - {e}")
